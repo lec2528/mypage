@@ -37,9 +37,9 @@
 
         }
 
-        .mytitle>button {
+        .mytitle > button {
             width: 250px;
-            height: 250px;
+            height: 50px;
             background-color: transparent;
             border: 1px solid white;
             color: white;
@@ -48,7 +48,7 @@
 
         }
 
-        .mytitle>button:hover {
+        .mytitle > button:hover {
             border: 2px solid white;
         }
 
@@ -93,16 +93,22 @@
 
         <button>영화 기록하기</button>
     </div>
-    <div class="mypost">
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
-                <label for="floatingInputValue">영화URL</label>
-            </div>
-        <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">코멘트</label>
-        </div>
-    </div>    
+     <div class="mypost">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInputValue">영화URL</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInputValue">별점을 입력해주세요.</label>
+                    
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">코멘트</label>
+                </div>
+                
+        </div>    
         <div class="mybtn">
             <button type="button" class="btn btn-dark">기록하기</button>
             <button type="button" class="btn btn-outline-dark">닫기</button>
